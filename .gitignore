@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Claude Code local cache
+.claude/
+
+# Design references (not part of the site)
+Reference*/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+
+# Node (if you ever add a build step later)
+node_modules/
