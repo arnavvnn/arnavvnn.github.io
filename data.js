@@ -72,7 +72,7 @@ const projects = [
     liveUrl: false,
     githubUrl: "https://github.com/arnavvnn/Authorship-Detection-in-Rap-Kendrick-vs-JCole",
     description: "Built a Kendrick vs J. Cole authorship classifier on a self-scraped 134-song corpus, comparing classical stylometry (Burrows Delta), TF-IDF linear models, and a character-level CNN under unified 5×5 cross-validation with BCa bootstrap CIs and BH-FDRmultiplicity control; best model reached 93.6 percent accuracy. Engineered 18 stylometric features (lexical diversity, function-word rate, CMU-dictionary rhyme density) and delivered TreeSHAP-based interpretability analysis while comparing more than 7 different ML and Statistical Models. ",
-    image: "assets/projects/placeholder-1.jpg",
+    image: "assets/projects/kendrick.png",
   },
   {
     name: "Urban Heat Island Severity Prediction",
@@ -83,7 +83,7 @@ const projects = [
     liveUrl: null,
     githubUrl: "https://github.com/arnavvnn/Predicting-UHI-Intensity",
     description: "Built an end-to-end geospatial ML pipeline predicting Urban Heat Island intensity by pulling multispectral indices (NDVI, NDBI, EVI, Albedo) via Google Earth Engine, urban morphology features (building density, street network, SVF) via OSMnx/GeoPandas, and merging them with socioeconomic data. Trained and benchmarked Random Forest, XGBoost, KNN, and SVM models for both regression and 4-class classification using Stratified 5-Fold and Spatial Block Cross-Validation, with Optuna hyperparameter tuning — achieving R² = 0.79 for LST regression and 86.7% ROC-AUC for UHI severity classification using scikit-learn and XGBoost.",
-    image: "assets/projects/placeholder-2.jpg",
+    image: "assets/projects/uhi.png",
   },
 ];
 
