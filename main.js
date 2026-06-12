@@ -186,12 +186,17 @@ function renderProjects() {
     const img = p.image
       ? `<img src="${p.image}" alt="${p.name}" onerror="this.style.display='none';this.parentElement.classList.add('card__image--empty')" />`
       : "";
+    const ctaLabel = p.live ? "VIEW LIVE" : (p.githubUrl ? "VIEW ON GITHUB" : "VIEW PROJECT");
     return `
       <a class="card card--project" href="${href}" target="_blank" rel="noopener">
-        <div class="card__image">${img}</div>
+        <div class="card__image">
+          ${img}
+          <span class="card__image-year">${p.year}</span>
+          <span class="card__image-cta">${ctaLabel} <span class="arrow">↗</span></span>
+        </div>
         <div class="card__badges">${badges.join("")}</div>
         <h3 class="card__name">${p.name}</h3>
-        <p class="card__sub">${p.subtitle} — ${p.year}</p>
+        <p class="card__sub">${p.subtitle}</p>
         <p class="card__desc">${p.description}</p>
       </a>
     `;
