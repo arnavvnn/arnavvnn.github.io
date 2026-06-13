@@ -92,14 +92,15 @@ const projects = [
 // category: "notes" | "project-logs"
 // ─────────────────────────────────────────────────────────
 const posts = [
-  {
-    slug: "the art of making a playlist.",
-    title: "THE ART OF MAKING A PLAYLIST",
-    date: "2026-05-05",
-    readTime: 4,
-    category: "notes",
-    tags: ["BUILDING", "PROCESS", "REFLECTION"],
-    excerpt: "Notes on the system that keeps the work standing: process, simplicity, and the case for solving one problem well before scaling.",
-    body: "Your full post body goes here.",
-  },
+  // Add a new post object here when you write one. Template:
+  // {
+  //   slug: "your-post-slug",
+  //   title: "POST TITLE",
+  //   date: "2026-MM-DD",
+  //   readTime: 4,
+  //   category: "notes",        // "notes" | "project-logs"
+  //   tags: ["TAG1", "TAG2"],
+  //   excerpt: "One-line summary that shows on the blog list.",
+  //   body: "Full post body.",
+  // },
 ];
